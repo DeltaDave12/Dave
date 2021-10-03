@@ -1,0 +1,184 @@
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px
+}
+.Head1{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.Head1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.flex-h1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: center;
+    gap: 15px  
+}
+
+#IconApps{
+    width: 25px;
+    height: 25px;
+}
+
+#IconApps:hover{
+    cursor: pointer;
+    background-color: rgb(201, 200, 200);
+    border-radius: 20px;
+}
+
+.SignIn{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: thin;
+    border-style: solid;
+    border-color:#1a73e8 ;
+    background-color: #1a73e8 ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.SignIn:hover{
+    background-color:#5892df ;
+    cursor: pointer;
+}
+
+#GoogleMain{
+    width: 320px;
+    height: 130px;
+}
+
+#GoogleMain:hover{
+    cursor: pointer;
+}
+
+#MicroIcon{
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+#LoupeIcon{
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+/*<img id="LoupeIcon" alt="Loupe" src="http://www.testapic.com/wp-content/uploads/1492204297_search.png">
+<img id="MicroIcon" alt="Micro" src="https://icon-library.com/images/android-microphone-icon/android-microphone-icon-20.jpg">*/
+
+.ResearchBar{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    display: flex;
+}
+
+.ResearchBar:hover{
+    border-color: blue;
+}
+
+#TextBar{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border-width: 0px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.flex-m1{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.boxes{
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+}
+
+.BoxSearch{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: thin;
+    border-style: solid;
+    border-color:#f8f9fa ;
+    background-color: #f8f9fa ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.BoxLucky{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: thin;
+    border-style: solid;
+    border-color:#f8f9fa ;
+    background-color: #f8f9fa ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.BoxSearch:hover{
+    cursor: pointer;
+    border-color: blue ;
+}
+
+.BoxLucky:hover{
+    cursor: pointer;
+    border-color: blue ;
+}
+
+#flex-f1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: rgb(221, 218, 218);
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:30px;
+    height:50px;
+}
+
+
+.FooterText{
+    color: #70757a;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}    
+
+.FooterText:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
